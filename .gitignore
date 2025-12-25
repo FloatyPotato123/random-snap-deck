@@ -1,0 +1,8 @@
+# Local Wrangler cache
+.wrangler/
+
+# Build output
+dist/
+
+# Installed npm dependencies
+node_modules/

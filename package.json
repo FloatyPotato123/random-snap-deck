@@ -1,0 +1,28 @@
+{
+  "name": "random-snap-deck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js --format=esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloatyPotato123/random-snap-deck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FloatyPotato123/random-snap-deck/issues"
+  },
+  "homepage": "https://github.com/FloatyPotato123/random-snap-deck#readme",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "snapdeck": "^2.4.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.19"
+  }
+}

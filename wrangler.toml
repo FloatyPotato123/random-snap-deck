@@ -1,0 +1,8 @@
+name = "random-snap-deck"
+main = "dist/index.js"
+compatibility_date = "2025-12-10"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[build]
+command = "npm run build"
